@@ -9,6 +9,7 @@
 #import "DTAttributedLabel.h"
 #import "DTCoreTextLayoutFrame.h"
 #import <QuartzCore/QuartzCore.h>
+#import "DTTiledLayerWithoutFade.h"
 
 @implementation DTAttributedLabel
 
