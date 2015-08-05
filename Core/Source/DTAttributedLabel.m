@@ -15,7 +15,7 @@
 + (Class)layerClass
 {
 	// most likely the label will be less than a screen size and so we don't want any tiling behavior
-	return [CALayer class];
+        return [DTTiledLayerWithoutFade class];
 }
 
 - (void) setupAttributedLabel
